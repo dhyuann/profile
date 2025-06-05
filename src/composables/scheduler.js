@@ -1,5 +1,5 @@
 /**
- * Created by Ryan Balieiro on 03.05.2025
+ * Created by dhyuann on 03.05.2025
  * Bulk manager for timeouts and intervals.
  */
 const timeouts = []
@@ -13,7 +13,7 @@ export const useScheduler = () => {
      */
     const schedule = (callback, timeInMilliseconds, tag) => {
         const timeoutId = setTimeout(callback, timeInMilliseconds)
-        timeouts.push({id: timeoutId, tag: tag})
+        timeouts.push({ id: timeoutId, tag: tag })
     }
 
     /**
@@ -23,7 +23,7 @@ export const useScheduler = () => {
      */
     const interval = (callback, timeInMilliseconds, tag) => {
         const intervalId = setInterval(callback, timeInMilliseconds)
-        intervals.push({id: intervalId, tag: tag})
+        intervals.push({ id: intervalId, tag: tag })
     }
 
     /**

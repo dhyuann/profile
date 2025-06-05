@@ -1,5 +1,5 @@
 /**
- * Created by Ryan Balieiro on 03.29.2025
+ * Created by dhyuann on 03.29.2025
  * API integration with EmailJS for sending e-mails.
  */
 import emailjs from "@emailjs/browser"
@@ -7,7 +7,7 @@ import emailjs from "@emailjs/browser"
 const _params = {
     publicKey: null,
     serviceId: null,
-    templateId : null
+    templateId: null
 }
 
 export const useEmails = () => {
@@ -21,10 +21,10 @@ export const useEmails = () => {
         _params.publicKey = publicKey
         _params.serviceId = serviceId
         _params.templateId = templateId
-        
-        if(!publicKey || !serviceId || !templateId)
+
+        if (!publicKey || !serviceId || !templateId)
             throw new Error("Error initializing emails.js! Make sure you informed all parameters correctly.")
-        
+
         emailjs.init(_params.publicKey)
     }
 
@@ -36,9 +36,9 @@ export const useEmails = () => {
      * @return {Promise<boolean>}
      */
     const sendContact = async (fromName, fromEmail, customSubject, message) => {
-        if(!_params.serviceId || !_params.templateId)
+        if (!_params.serviceId || !_params.templateId)
             throw new Error("EmailJS hasn't been initialized!")
-        
+
         const requestParams = {
             from_name: fromName,
             from_email: fromEmail,

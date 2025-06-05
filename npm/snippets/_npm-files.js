@@ -1,8 +1,8 @@
 /**
- * @author Ryan Balieiro
+ * @author dhyuann
  * @description Handy utilities to help manage files within your npm scripts.
  */
-import {useNpmLogger} from "./_npm-log.js"
+import { useNpmLogger } from "./_npm-log.js"
 import path from "path"
 import fs from "fs"
 
@@ -15,7 +15,7 @@ export const useNpmFileUtils = () => {
      */
     const deleteFolder = (folderPath) => {
         const fullPath = path.resolve(baseDir, folderPath)
-        if(!fs.existsSync(fullPath)) {
+        if (!fs.existsSync(fullPath)) {
             logger.log(logger.LogTypes.SKIP, `Skipped folder: ${folderPath}`)
             return
         }
@@ -29,7 +29,7 @@ export const useNpmFileUtils = () => {
      */
     const emptyFolder = (folderPath) => {
         const fullPath = path.resolve(baseDir, folderPath)
-        if(!fs.existsSync(fullPath)) {
+        if (!fs.existsSync(fullPath)) {
             logger.log(logger.LogTypes.SKIP, `Skipped folder: ${folderPath}`)
             return
         }

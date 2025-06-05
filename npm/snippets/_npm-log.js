@@ -1,5 +1,5 @@
 /**
- * @author Ryan Balieiro
+ * @author dhyuann
  * @description Handy utilities to present console messages within your npm scripts.
  */
 export const useNpmLogger = () => {
@@ -19,11 +19,11 @@ export const useNpmLogger = () => {
      * @dictionary
      */
     const LOG_TYPES_MAPPING = {
-        [LogTypes.DEFAULT]:             { emoji: "⬛"  },
-        [LogTypes.WARNING]:             { emoji: "⚠️"  },
-        [LogTypes.SKIP]:                { emoji: "⏭️"  },
-        [LogTypes.SUCCESS]:             { emoji: "✅"  },
-        [LogTypes.SUCCESS_FINISHED]:    { emoji: "🎉"  },
+        [LogTypes.DEFAULT]: { emoji: "⬛" },
+        [LogTypes.WARNING]: { emoji: "⚠️" },
+        [LogTypes.SKIP]: { emoji: "⏭️" },
+        [LogTypes.SUCCESS]: { emoji: "✅" },
+        [LogTypes.SUCCESS_FINISHED]: { emoji: "🎉" },
     }
 
     /**

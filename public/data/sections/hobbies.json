@@ -4,10 +4,18 @@
             "id": 1,
             "component": "ArticleSkills",
             "locales": {
-                "en": {"title": null},
-                "es": {"title": null},
-                "fr": {"title": null},
-                "zh": {"title": null}
+                "en": {
+                    "title": null
+                },
+                "es": {
+                    "title": null
+                },
+                "fr": {
+                    "title": null
+                },
+                "zh": {
+                    "title": null
+                }
             },
             "settings": {
                 "order_items_by": "id",
@@ -48,7 +56,6 @@
                         }
                     }
                 },
-
                 {
                     "id": 2,
                     "dateStart": null,
@@ -79,7 +86,6 @@
                         }
                     }
                 },
-
                 {
                     "id": 3,
                     "dateStart": null,
@@ -110,7 +116,6 @@
                         }
                     }
                 },
-
                 {
                     "id": 4,
                     "dateStart": null,
@@ -141,7 +146,6 @@
                         }
                     }
                 },
-
                 {
                     "id": 5,
                     "dateStart": null,
@@ -172,7 +176,6 @@
                         }
                     }
                 },
-
                 {
                     "id": 6,
                     "dateStart": null,
@@ -205,7 +208,6 @@
                 }
             ]
         },
-
         {
             "id": 2,
             "component": "ArticleSkills",
@@ -262,7 +264,6 @@
                         }
                     }
                 },
-
                 {
                     "id": 2,
                     "dateStart": null,
@@ -293,7 +294,6 @@
                         }
                     }
                 },
-
                 {
                     "id": 3,
                     "dateStart": null,
@@ -303,8 +303,8 @@
                     "percentage": null,
                     "locales": {
                         "en": {
-                            "title": "Music",
-                            "description": "Playing instruments, composing, and embracing the harmony of diverse musical genres.",
+                            "title": "English",
+                            "description": "Focusing on enhancing practical application abilities, it aims to improve communication skills, cross-cultural understanding, and information acquisition capabilities..",
                             "level": null
                         },
                         "es": {
@@ -318,13 +318,12 @@
                             "level": null
                         },
                         "zh": {
-                            "title": "音乐",
-                            "description": "演奏乐器，作曲，融合多种音乐流派的和谐。",
+                            "title": "英语",
+                            "description": "以提升实际应用能力为核心，提升沟通、跨文化理解和信息获取能力。",
                             "level": null
                         }
                     }
                 },
-
                 {
                     "id": 4,
                     "dateStart": null,
@@ -355,7 +354,6 @@
                         }
                     }
                 },
-
                 {
                     "id": 5,
                     "dateStart": null,
@@ -386,7 +384,6 @@
                         }
                     }
                 },
-
                 {
                     "id": 6,
                     "dateStart": null,
