@@ -1,85 +1,46 @@
 {
-    "name": "Roy Sheppard",
-    "profilePictureUrl": "images/pictures/avatar.png",
-
+    "name": "dhyuann",
+    "profilePictureUrl": "images/pictures/Avatar.jpg",
     "locales": {
         "en": {
-            "credits": "Designed by <strong><a href='https://github.com/ryanbalieiro'>Ryan Balieiro</a></strong>",
-            "role": "UX Designer"
+            "name": "dhyuann",
+            "credits": "Develop by <strong><a href='https://github.com/dhyuann'>dhyuann</a></strong>",
+            "role": "Front-end Developer"
         },
-
-        "es": {
-            "credits": "Hecho por <strong><a href='https://github.com/ryanbalieiro'>Ryan Balieiro</a></strong>",
-            "role": "Designer de UX"
-        },
-
-        "fr": {
-            "credits": "Conçu par <strong><a href='https://github.com/ryanbalieiro'>Ryan Balieiro</a></strong>",
-            "role": "Designer UX"
-        },
-
         "zh": {
-            "name": "罗伊谢帕德",
-            "credits": "设计：<strong><a href='https://github.com/ryanbalieiro'>Ryan Balieiro</a></strong>",
-            "role": "用户体验设计师"
+            "name": "董惠媛",
+            "credits": "开发：<strong><a href='https://github.com/dhyuann'>dhyuann</a></strong>",
+            "role": "前端研发工程师"
         }
     },
-
     "contactOptions": [
         {
             "id": "address",
-            "value": "123 Main Street, Cupertino, CA 01234",
-            "valueShort": "Cupertino – CA",
+            "value": "江苏省南京市浦口区",
+            "valueShort": "江苏省南京市",
             "faIcon": "fa-regular fa-map",
             "href": null
         },
-
         {
             "id": "email",
-            "value": "roy.sheppard@genius.com",
-            "valueShort": "roy.sheppard@genius.com",
+            "value": "dhyuann@qq.com",
+            "valueShort": "dhyuann@qq.com",
             "faIcon": "fa-regular fa-envelope",
-            "href": "mailto:roy.sheppard@genius.com"
+            "href": "mailto:dhyuann@qq.com"
         },
-
-        {
-            "id": "facebook",
-            "value": "Roy Sheppard",
-            "valueShort": "Roy S.",
-            "faIcon": "fa-brands fa-facebook",
-            "href": "https://facebook.com"
-        },
-
         {
             "id": "github",
-            "value": "@roy.sheppard.official",
-            "valueShort": "@roy.sheppard.official",
+            "value": "@dhyuann",
+            "valueShort": "@dhyuann",
             "faIcon": "fa-brands fa-github",
-            "href": "https://github.com"
+            "href": "https://github.com/dhyuann"
         },
-
-        {
-            "id": "instagram",
-            "value": "@roy.sheppard.official",
-            "valueShort": "@roy.sheppard.official",
-            "faIcon": "fa-brands fa-instagram",
-            "href": "https://instagram.com"
-        },
-
-        {
-            "id": "linkedin",
-            "value": "@roy.sheppard.official",
-            "valueShort": "@roy.sheppard.official",
-            "faIcon": "fa-brands fa-linkedin",
-            "href": "https://linkedin.com"
-        },
-
         {
             "id": "phone",
-            "value": "+1 (123) 456-7890",
-            "valueShort": "(123) 456-7890",
+            "value": "177****9662",
+            "valueShort": "177****9662",
             "faIcon": "fa-brands fa-whatsapp",
-            "href": "tel:1234567890"
+            "href": "tel:177****9662"
         }
     ]
 }

@@ -62,7 +62,7 @@
                 "zh": {
                     "title": "*教育* 背景",
                     "title_short": null,
-                    "description": "一瞥我的学术轨迹和成就。",
+                    "description": "",
                     "nav_label": "教育背景"
                 }
             }
@@ -170,39 +170,6 @@
             }
         },
 
-        {
-            "id": "achievements",
-            "categoryId": "showcase",
-            "jsonPath": "/sections/achievements.json",
-            "faIcon": "fa-solid fa-award",
-            "type": "row",
-            "locales": {
-                "en": {
-                    "title": "Career *Achievements*",
-                    "title_short": null,
-                    "description": "My journey as a UX designer has been marked by unwavering dedication to learning and skill enhancement, along with enthusiastic participation in design events. As a result, I have collected a list of notable awards and certifications:",
-                    "nav_label": "Achievements"
-                },
-                "es": {
-                    "title": "Logros *Profesionales*",
-                    "title_short": null,
-                    "description": "Mi trayectoria como diseñador de UX ha estado marcada por una dedicación inquebrantable al aprendizaje y mejora de habilidades, junto con una participación entusiasta en eventos de diseño. Como resultado, he recopilado una lista de premios y certificaciones notables:",
-                    "nav_label": "Logros"
-                },
-                "fr": {
-                    "title": "Réalisations *Professionnelles*",
-                    "title_short": null,
-                    "description": "Mon parcours en tant que concepteur UX a été marqué par une dédication inébranlable à l'apprentissage et à l'amélioration des compétences, ainsi que par une participation enthousiaste à des événements de conception. En conséquence, j'ai dressé une liste de récompenses et de certifications remarquables:",
-                    "nav_label": "Réalisations"
-                },
-                "zh": {
-                    "title": "职业*成就*",
-                    "title_short": null,
-                    "description": "作为一名UX设计师，我的旅程充满了对学习和技能提升的坚定执着，以及对设计活动的热情参与。因此，我汇总了一份显著奖项和认证的列表：",
-                    "nav_label": "成就"
-                }
-            }
-        },
 
         {
             "id": "hobbies",
