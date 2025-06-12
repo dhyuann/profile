@@ -136,40 +136,6 @@
             }
         },
 
-        {
-            "id": "portfolio",
-            "categoryId": "showcase",
-            "jsonPath": "/sections/portfolio.json",
-            "faIcon": "fa-solid fa-folder-open",
-            "type": "column",
-            "locales": {
-                "en": {
-                    "title": "My *Portfolio*",
-                    "title_short": null,
-                    "description": "Explore a selection of my recent projects and creative works.",
-                    "nav_label": "Portfolio"
-                },
-                "es": {
-                    "title": "Mi *Portafolio*",
-                    "title_short": null,
-                    "description": "Explora una selección de mis proyectos recientes y trabajos creativos.",
-                    "nav_label": "Portafolio"
-                },
-                "fr": {
-                    "title": "Mon *Portfolio*",
-                    "title_short": null,
-                    "description": "Découvrez une sélection de mes projets récents et œuvres créatives.",
-                    "nav_label": "Portfolio"
-                },
-                "zh": {
-                    "title": "我的*作品集*",
-                    "title_short": null,
-                    "description": "浏览我最近的一些项目和创意作品。",
-                    "nav_label": "作品集"
-                }
-            }
-        },
-
 
         {
             "id": "hobbies",

@@ -28,13 +28,12 @@
             "settings": {
                 "order_items_by": "id",
                 "order_items_sort": "asc",
-                "contact_js_public_key": "tzObcsmOwHvPy6Rhp",
-                "contact_js_service_id": "service_4h8g7vb",
-                "contact_js_template_id": "template_kplo17d"
+                "contact_js_public_key": "izrFsNmY8sj90ZjIx",
+                "contact_js_service_id": "service_lu31vhx",
+                "contact_js_template_id": "template_5tbv7ag"
             },
             "items": null
         },
-
         {
             "id": 2,
             "component": "ArticleContactOptions",
@@ -59,7 +58,14 @@
             "settings": {
                 "order_items_by": "id",
                 "order_items_sort": "asc",
-                "contact_ids": ["address", "phone", "email", "linkedin", "facebook", "github"]
+                "contact_ids": [
+                    "address",
+                    "phone",
+                    "email",
+                    "linkedin",
+                    "facebook",
+                    "github"
+                ]
             },
             "items": null
         }
