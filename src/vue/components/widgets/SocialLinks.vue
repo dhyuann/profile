@@ -4,22 +4,35 @@
         <a v-for="link in parsedLinks"
            class="btn social-link"
            :class="classList"
-           :href="link.href"
+           @click="goHref(link.href)"
            target="_blank">
             <!-- ToolTip -->
             <div v-if="link.label"
                  class="social-link-tooltip text-1">
                 {{link.label}}
             </div>
-
             <!-- Icon -->
             <i :class="link.faIcon"/>
         </a>
     </div>
+    <Modal id="project-modal"
+           modalType="modal-xl fade"
+           dialogType="modal-dialog-centered"
+           :visible="Boolean(showWechat)"
+           :dismissable="true"
+           @close="onClose"
+           >
+        <div class="wechat-dialog">
+            <img :src="utils.resolvePath(path)" style="width: 400px;height: auto">
+        </div>
+    </Modal>
 </template>
 
 <script setup>
-import {computed, inject} from "vue"
+import {computed, inject, reactive, ref} from "vue"
+import Modal from "/src/vue/components/modals/base/Modal.vue"
+import {useUtils} from "/src/composables/utils.js"
+
 
 const props = defineProps({
     items: Array,
@@ -27,7 +40,8 @@ const props = defineProps({
     variant: String,
     class: String
 })
-
+const utils = useUtils()
+let path = 'images/flags/wechat.jpg'
 /** @type {Function} */
 const localizeFromStrings = inject("localizeFromStrings")
 
@@ -44,6 +58,25 @@ const classList = computed(() => {
     const colorClass = "social-link-color-" + props.variant
     return sizeClass + " " + colorClass
 })
+
+let showWechat = ref(false);
+function showWechatImg(){
+    showWechat.value = true
+}
+function onClose(){
+    showWechat.value = false
+}
+function goHref(href){
+    if(href != '/'){
+        // 创建一个新的窗口对象
+        let newWindow = window.open();
+        // 在新窗口加载指定链接
+        newWindow.location.href = href;
+    }else{
+        showWechatImg();
+    }
+   
+}
 </script>
 
 <style lang="scss" scoped>
@@ -176,5 +209,10 @@ a.social-link:hover {
             display: block!important;
         }
     }
+}
+.wechat-dialog{
+    text-align: center;
+    padding: 100px 50px;
+    box-sizing:border-box
 }
 </style>
