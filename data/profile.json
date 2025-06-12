@@ -9,7 +9,7 @@
         },
         "zh": {
             "name": "董惠媛",
-            "credits": "开发：<strong><a href='https://github.com/dhyuann'>dhyuann</a></strong>",
+            "credits": "Develop by <strong><a href='https://github.com/dhyuann'>dhyuann</a></strong>",
             "role": "前端研发工程师"
         }
     },
@@ -18,7 +18,7 @@
             "id": "wechat",
             "value": "Dhyuann",
             "valueShort": "Dhyuann",
-            "faIcon": "fa-regular fa-whatsapp",
+            "faIcon": "fa-regular fab fa-weixin",
             "href": null
         },
         {

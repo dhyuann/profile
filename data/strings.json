@@ -27,9 +27,9 @@
             "view_more_info": "View More Info",
             "view_on_app_store": "App Store",
             "view_on_google_play": "Google Play",
-            "view_on_windows_store": "Windows Store"
+            "view_on_windows_store": "Windows Store",
+            "wechat": "WeChat"
         },
-
         "es": {
             "about": "Acerca de",
             "address": "Dirección",
@@ -59,7 +59,6 @@
             "view_on_google_play": "Google Play",
             "view_on_windows_store": "Windows Store"
         },
-
         "fr": {
             "about": "À propos",
             "address": "Adresse",
@@ -89,7 +88,6 @@
             "view_on_google_play": "Google Play",
             "view_on_windows_store": "Windows Store"
         },
-
         "zh": {
             "about": "关于",
             "address": "地址",
@@ -117,7 +115,8 @@
             "view_more_info": "查看更多信息",
             "view_on_app_store": "App Store",
             "view_on_google_play": "Google Play",
-            "view_on_windows_store": "Windows Store"
+            "view_on_windows_store": "Windows Store",
+            "wechat": "微信"
         }
     }
 }
