@@ -22,7 +22,7 @@
                 "zh": {
                     "contact_thank_you": "*感谢*您的联系！",
                     "contact_thank_you_description": "您的消息已收到，我会尽快与您联系。感谢您的时间，期待与您交流！",
-                    "contact_thank_you_reply": "我们的回复将发送至您的电子邮件地址 *{email}*。"
+                    "contact_thank_you_reply": "我的回复将发送至您的电子邮件地址 *{email}*。"
                 }
             },
             "settings": {
@@ -64,7 +64,8 @@
                     "email",
                     "linkedin",
                     "facebook",
-                    "github"
+                    "github",
+                    "wechat"
                 ]
             },
             "items": null
