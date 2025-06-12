@@ -15,10 +15,10 @@
     },
     "contactOptions": [
         {
-            "id": "address",
-            "value": "江苏省南京市浦口区",
-            "valueShort": "江苏省南京市",
-            "faIcon": "fa-regular fa-map",
+            "id": "wechat",
+            "value": "Dhyuann",
+            "valueShort": "Dhyuann",
+            "faIcon": "fa-regular fa-whatsapp",
             "href": null
         },
         {

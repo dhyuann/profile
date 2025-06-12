@@ -317,7 +317,7 @@
                     "img": null,
                     "fallbackFaIcon": "fa-brands fa-vuejs",
                     "fallbackFaIconColor": null,
-                    "percentage": 95,
+                    "percentage": 90,
                     "locales": {
                         "en": {
                             "title": "Vue",
@@ -337,35 +337,7 @@
                         }
                     }
                 },
-                {
-                    "id": 5,
-                    "dateStart": {
-                        "year": 2024,
-                        "month": 9
-                    },
-                    "img": null,
-                    "fallbackFaIcon": "fa-brands fa-react",
-                    "fallbackFaIconColor": null,
-                    "percentage": 60,
-                    "locales": {
-                        "en": {
-                            "title": "React",
-                            "description": "Experienced in building interactive UIs with React, using hooks and component-based architecture."
-                        },
-                        "es": {
-                            "title": "React",
-                            "description": "Experto en construir interfaces interactivas con React, utilizando hooks y arquitectura basada en componentes."
-                        },
-                        "fr": {
-                            "title": "React",
-                            "description": "Expérimenté dans la création d'interfaces interactives avec React, en utilisant des hooks et une architecture basée sur des composants."
-                        },
-                        "zh": {
-                            "title": "React",
-                            "description": "使用React构建交互式用户界面，利用hooks和基于组件的架构。"
-                        }
-                    }
-                },
+                
                 {
                     "id": 6,
                     "dateStart": {

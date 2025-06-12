@@ -150,6 +150,70 @@
                 {
                     "id": 3,
                     "dateStart": {
+                        "year": 2022,
+                        "month": 10
+                    },
+                    "dateEnd": {
+                        "year": 2023,
+                        "month": 5
+                    },
+                    "img": "images/places/logo-coursera.png",
+                    "fallbackFaIcon": null,
+                    "fallbackFaIconColor": null,
+                    "locales": {
+                        "en": {
+                            "title": "Record Management",
+                            "description": "Assist Representative X in aggregating and organizing equipment data (including purchase date, maintenance duration, fault causes, and device locations) to enable online management of equipment ledgers. Establish a knowledge base for equipment maintenance and display the location and status of each device on a map.",
+                            "province": "Jiangsu",
+                            "country": "Nanjing",
+                            "institution": "YST",
+                            "tags": [
+                                "Vue",
+                                "Elementui"
+                            ]
+                        },
+                        "es": {
+                            "title": "Profesor de Tiempo Completo en UX Design",
+                            "description": "Utilicé mi experiencia en diseño UX para educar e inspirar a los estudiantes en el arte de los principios de diseño centrado en el usuario. Realicé estudios de usuarios, analicé datos y orienté a los estudiantes en la aplicación de conocimientos teóricos a proyectos prácticos, empoderando a la próxima generación de diseñadores UX.",
+                            "province": "Nueva York",
+                            "country": "EE. UU.",
+                            "institution": "Coursera",
+                            "tags": [
+                                "Adobe XD",
+                                "Sketch",
+                                "Axure",
+                                "Mentoría Educativa"
+                            ]
+                        },
+                        "fr": {
+                            "title": "Professeur à temps plein en UX Design",
+                            "description": "J'ai mis à profit mon expertise en conception UX pour éduquer et inspirer les étudiants dans l'art des principes de conception centrés sur l'utilisateur. J'ai réalisé des études utilisateur, analysé des données et guidé les étudiants dans l'application des connaissances théoriques à des projets pratiques, donnant ainsi les moyens à la prochaine génération de concepteurs UX.",
+                            "province": "New York",
+                            "country": "États-Unis",
+                            "institution": "Coursera",
+                            "tags": [
+                                "Adobe XD",
+                                "Sketch",
+                                "Axure",
+                                "Mentorat Éducatif"
+                            ]
+                        },
+                        "zh": {
+                            "title": "台帐管理",
+                            "description": "协助x代表汇总整理设备数据（包括采购时间、检修时长、故障原因、设备位置）等内容，实现在线管理设备台帐。建立设备维修知识库，地图展示各设备位置、状态。",
+                            "province": "江苏",
+                            "country": "南京",
+                            "institution": "YST",
+                            "tags": [
+                                "Vue",
+                                "Elementui"
+                            ]
+                        }
+                    }
+                },
+                {
+                    "id": 4,
+                    "dateStart": {
                         "year": 2023,
                         "month": 9
                     },
@@ -211,141 +275,6 @@
                                 "Vuex",
                                 "Ant design",
                                 "Echarts"
-                            ]
-                        }
-                    }
-                },
-                {
-                    "id": 4,
-                    "dateStart": {
-                        "year": 2024,
-                        "month": 3
-                    },
-                    "dateEnd": {
-                        "year": 2025,
-                        "month": 2
-                    },
-                    "img": "images/places/logo-coursera.png",
-                    "fallbackFaIcon": null,
-                    "fallbackFaIconColor": null,
-                    "locales": {
-                        "en": {
-                            "title": "Kids' Clothing Mall",
-                            "description": "Group Buying & Joint Order Mall, featuring multi-terminal systems for the platform, merchants, and users.",
-                            "province": "Jiangsu",
-                            "country": "Nanjing",
-                            "institution": "KH",
-                            "tags": [
-                                "Vue",
-                                "Ant design",
-                                "Uniapp",
-                                "Decoration"
-                            ]
-                        },
-                        "es": {
-                            "title": "Profesor de Tiempo Completo en UX Design",
-                            "description": "Utilicé mi experiencia en diseño UX para educar e inspirar a los estudiantes en el arte de los principios de diseño centrado en el usuario. Realicé estudios de usuarios, analicé datos y orienté a los estudiantes en la aplicación de conocimientos teóricos a proyectos prácticos, empoderando a la próxima generación de diseñadores UX.",
-                            "province": "Nueva York",
-                            "country": "EE. UU.",
-                            "institution": "Coursera",
-                            "tags": [
-                                "Adobe XD",
-                                "Sketch",
-                                "Axure",
-                                "Mentoría Educativa"
-                            ]
-                        },
-                        "fr": {
-                            "title": "Professeur à temps plein en UX Design",
-                            "description": "J'ai mis à profit mon expertise en conception UX pour éduquer et inspirer les étudiants dans l'art des principes de conception centrés sur l'utilisateur. J'ai réalisé des études utilisateur, analysé des données et guidé les étudiants dans l'application des connaissances théoriques à des projets pratiques, donnant ainsi les moyens à la prochaine génération de concepteurs UX.",
-                            "province": "New York",
-                            "country": "États-Unis",
-                            "institution": "Coursera",
-                            "tags": [
-                                "Adobe XD",
-                                "Sketch",
-                                "Axure",
-                                "Mentorat Éducatif"
-                            ]
-                        },
-                        "zh": {
-                            "title": "童装商城",
-                            "description": "团购拼单商城，分为平台、商户、用户多端。",
-                            "province": "江苏",
-                            "country": "南京",
-                            "institution": "KH",
-                            "tags": [
-                                "Vue",
-                                "Ant design",
-                                "Uniapp",
-                                "小程序装修"
-                            ]
-                        }
-                    }
-                },
-                {
-                    "id": 5,
-                    "dateStart": {
-                        "year": 2025,
-                        "month": 4
-                    },
-                    "dateEnd": {
-                        "string": "now"
-                    },
-                    "img": null,
-                    "fallbackFaIcon": "fa-brands fa-steam",
-                    "fallbackFaIconColor": "#222222",
-                    "locales": {
-                        "en": {
-                            "title": "gallery",
-                            "description": "Collect image materials and display/manage them in various layout forms.",
-                            "province": "Jiangsu",
-                            "country": "Nanjing",
-                            "institution": "KH",
-                            "tags": [
-                                "Waterfall Flow",
-                                "Vue",
-                                "Slide",
-                                "live"
-                            ]
-                        },
-                        "es": {
-                            "title": "Gerente de Proyectos",
-                            "description": "Lideré equipos multifuncionales para ejecutar y entregar con éxito proyectos de alto impacto dentro de los límites de alcance, tiempo y presupuesto. Desarrollé e implementé metodologías ágiles para mejorar la productividad del equipo, optimizar los flujos de trabajo y garantizar una mejora continua. Facilité la colaboración entre las partes interesadas, ingenieros y diseñadores para alinear los objetivos del proyecto con los objetivos comerciales.",
-                            "province": "San Francisco",
-                            "country": "EE. UU.",
-                            "institution": "Steam Valve",
-                            "tags": [
-                                "Agile",
-                                "Scrum",
-                                "Liderazgo",
-                                "Gestión de Riesgos"
-                            ]
-                        },
-                        "fr": {
-                            "title": "Chef de Projet",
-                            "description": "J'ai dirigé des équipes pluridisciplinaires pour exécuter et livrer avec succès des projets à fort impact dans les limites de portée, de temps et de budget. J'ai développé et mis en œuvre des méthodologies agiles afin d'améliorer la productivité de l'équipe, d'optimiser les flux de travail et d'assurer une amélioration continue. J'ai facilité la collaboration entre les parties prenantes, les ingénieurs et les designers pour aligner les objectifs du projet avec les objectifs commerciaux.",
-                            "province": "San Francisco",
-                            "country": "États-Unis",
-                            "institution": "Steam Valve",
-                            "tags": [
-                                "Agile",
-                                "Scrum",
-                                "Leadership",
-                                "Gestion des Risques"
-                            ]
-                        },
-                        "zh": {
-                            "title": "gallery",
-                            "description": "图片素材收集，以多种布局形式展示管理。",
-                            "province": "江苏",
-                            "country": "南京",
-                            "institution": "KH",
-                            "tags": [
-                                "瀑布流",
-                                "Vue",
-                                "幻灯片",
-                                "live"
                             ]
                         }
                     }
