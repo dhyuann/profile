@@ -113,7 +113,7 @@
                     "locales": {
                         "en": {
                             "title": "Functional Testing",
-                            "description": "Verification of basic functions for user interaction logic and data flow.",
+                            "description": "Ensure that user actions within the system trigger corresponding logic as expected, and that data transmission, processing, and storage between the front-end interface, middleware services, and back-end storage are accurate. This prevents functional anomalies caused by logical errors or data loss, enhancing both user experience and system reliability.",
                             "level": null
                         },
                         "es": {
@@ -128,7 +128,7 @@
                         },
                         "zh": {
                             "title": "功能测试",
-                            "description": "用户交互逻辑及数据流转的基本功能验证。",
+                            "description": "确保用户在系统中的操作行为能按照预期触发对应逻辑，且数据在前端界面、中间层服务及后端存储间的传递、处理与存储准确无误，避免因逻辑错误或数据丢失导致功能异常，提升用户体验与系统可靠性。",
                             "level": null
                         }
                     }
