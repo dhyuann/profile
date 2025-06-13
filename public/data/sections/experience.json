@@ -17,7 +17,7 @@
                     },
                     "dateEnd": {
                         "year": 2023,
-                        "month": 2
+                        "month": 3
                     },
                     "img": "images/places/logo-ux-studio.png",
                     "fallbackFaIcon": null,
@@ -25,7 +25,7 @@
                     "locales": {
                         "en": {
                             "title": "YIXINGUANJIA",
-                            "description": "Provide operational support and mobile office capabilities for collaborative workflows between the hospital's IT department and other functional departments. Achieve comprehensive management across the entire project lifecycle, objective planning, operational maintenance, and accreditation review processes.",
+                            "description": "Provide online management capabilities and operational support for business processes between the hospital's IT department and other functional departments. Implement full lifecycle project management, goal planning, maintenance operations, evaluation and review management, duty rosters, asset management, and other objectives. The system shall also include functions such as report statistics, dashboard visualization, and telephone monitoring. Optimize the legacy JSP-based project by implementing front-end/back-end separation using the artTemplate templating engine.",
                             "province": "Jiangsu",
                             "country": "Nanjing",
                             "institution": "YST",
@@ -33,7 +33,8 @@
                                 "Jquery",
                                 "css3",
                                 "html5",
-                                "jeui"
+                                "jeui",
+                                "artTemplate"
                             ]
                         },
                         "es": {
@@ -66,7 +67,7 @@
                         },
                         "zh": {
                             "title": "医信管家",
-                            "description": "为医院信息部门和其他职能部门之间的业务工作提供支撑以及移动办公能力，实现项目全生命周期管理、目标计划管理、运维管理、评级评审管理等目标。",
+                            "description": "为医院信息部门和其他职能部门之间的业务工作提供支撑以及在线管理能力，实现项目全生命周期管理、目标计划管理、运维管理、评级评审管理、值班考勤、资产管理等目标。其中还包括报表统计、大屏可视化、电话机监听等功能。使用artTemplate模板引擎对老项目（jsp）进行前后端分离优化。",
                             "province": "江苏",
                             "country": "南京",
                             "institution": "YST",
@@ -74,7 +75,8 @@
                                 "Jquery",
                                 "css3",
                                 "html5",
-                                "jeui"
+                                "jeui",
+                                "artTemplate"
                             ]
                         }
                     }
@@ -82,12 +84,12 @@
                 {
                     "id": 2,
                     "dateStart": {
-                        "year": 2022,
+                        "year": 2023,
                         "month": 3
                     },
                     "dateEnd": {
-                        "year": 2022,
-                        "month": 9
+                        "year": 2023,
+                        "month": 11
                     },
                     "img": "images/places/logo-apple.png",
                     "fallbackFaIcon": null,
@@ -95,14 +97,15 @@
                     "locales": {
                         "en": {
                             "title": "CHEYOUGUANJIA(Mini Program)",
-                            "description": "Monitor vehicle routes, vehicle status, fuel consumption information, etc.",
+                            "description": "Monitor the fuel consumption of construction vehicles in real-time, generate fuel consumption charts, and analyze anomalies such as fuel leaks or excessive consumption by comparing historical data. Trigger alerts for detected abnormalities. Track vehicle locations on interactive maps, plot historical routes, and highlight abnormal trajectories.",
                             "province": "Jiangsu",
                             "country": "Yancheng",
                             "institution": "YST",
                             "tags": [
                                 "Vue",
                                 "iView",
-                                "VueBaiduMap "
+                                "VueBaiduMap ",
+                                "echarts"
                             ]
                         },
                         "es": {
@@ -135,14 +138,15 @@
                         },
                         "zh": {
                             "title": "车油管家（小程序）",
-                            "description": "检测车辆行驶路线、车辆状态、油耗信息等内容。",
+                            "description": "实时监测工程车辆的油耗情况，绘制油耗曲线图，根据车辆油耗曲线图对比分析漏油、高油耗等异常情况并进行警示提醒。地图中定位车辆位置，绘制车辆行驶轨迹，标注车辆异常轨迹。",
                             "province": "江苏",
                             "country": "盐城",
                             "institution": "YST",
                             "tags": [
                                 "Vue",
                                 "iView",
-                                "VueBaiduMap "
+                                "VueBaiduMap ",
+                                "echarts"
                             ]
                         }
                     }
@@ -150,12 +154,12 @@
                 {
                     "id": 3,
                     "dateStart": {
-                        "year": 2022,
-                        "month": 10
+                        "year": 2023,
+                        "month": 11
                     },
                     "dateEnd": {
-                        "year": 2023,
-                        "month": 5
+                        "year": 2024,
+                        "month": 7
                     },
                     "img": "images/places/logo-coursera.png",
                     "fallbackFaIcon": null,
@@ -163,7 +167,7 @@
                     "locales": {
                         "en": {
                             "title": "Record Management",
-                            "description": "Assist Representative X in aggregating and organizing equipment data (including purchase date, maintenance duration, fault causes, and device locations) to enable online management of equipment ledgers. Establish a knowledge base for equipment maintenance and display the location and status of each device on a map.",
+                            "description": "Import Excel spreadsheets to aggregate equipment ledger data for online management. Establish a maintenance knowledge base using historical repair records. Visualize equipment locations, statuses, and maintenance alerts on interactive maps with data including coordinates, operational status, and maintenance schedules.",
                             "province": "Jiangsu",
                             "country": "Nanjing",
                             "institution": "YST",
@@ -215,7 +219,7 @@
                     "id": 4,
                     "dateStart": {
                         "year": 2024,
-                        "month": 9
+                        "month": 7
                     },
                     "dateEnd": {
                         "year": 2025,
@@ -227,7 +231,7 @@
                     "locales": {
                         "en": {
                             "title": "DIANLIKESHIHUA",
-                            "description": "Data visualization management and display for power grid-connected tests, parameter setting, simulation verification, etc.",
+                            "description": "A visualization management project for power grid-connected tests, parameter setting, and simulation verification data. Using ECharts to display line charts for large-volume data, the system simultaneously tracks five data series with individual control features (including scrolling, up/down adjustment) to view detailed single-series insights.",
                             "province": "Jiangsu",
                             "country": "Nanjing",
                             "institution": "DianLi",

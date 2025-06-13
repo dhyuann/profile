@@ -32,7 +32,7 @@
                     "img": null,
                     "fallbackFaIcon": "fa-solid fa-users",
                     "fallbackFaIconColor": "#FF6384",
-                    "percentage": 15,
+                    "percentage": 20,
                     "locales": {
                         "en": {
                             "title": "Family Time",
@@ -62,15 +62,15 @@
                     "img": null,
                     "fallbackFaIcon": "fa-solid fa-tasks",
                     "fallbackFaIconColor": "#36A2EB",
-                    "percentage": 29,
+                    "percentage": 30,
                     "locales": {
                         "en": {
                             "title": "My Projects",
-                            "description": "Pursuing my creative endeavors.",
+                            "description": "Nourished by knowledge, the soul becomes increasingly full.",
                             "level": null
                         },
                         "es": {
-                            "title": "Mis Proyectos",
+                            "title": "Open Source Projects and Learning",
                             "description": "Persiguiendo mis proyectos creativos.",
                             "level": null
                         },
@@ -80,8 +80,8 @@
                             "level": null
                         },
                         "zh": {
-                            "title": "个人项目",
-                            "description": "追求创意事业，将想法变成现实。",
+                            "title": "开源项目和学习",
+                            "description": "在知识的滋养下，让灵魂愈发充盈。",
                             "level": null
                         }
                     }
@@ -92,7 +92,7 @@
                     "img": null,
                     "fallbackFaIcon": "fa-solid fa-couch",
                     "fallbackFaIconColor": "#FFCD56",
-                    "percentage": 11,
+                    "percentage": 15,
                     "locales": {
                         "en": {
                             "title": "Relaxing",
@@ -120,39 +120,9 @@
                     "id": 4,
                     "dateStart": null,
                     "img": null,
-                    "fallbackFaIcon": "fa-solid fa-book",
-                    "fallbackFaIconColor": "#C5B0FF",
-                    "percentage": 9,
-                    "locales": {
-                        "en": {
-                            "title": "Studying",
-                            "description": "Embarking on a continuous journey of learning.",
-                            "level": null
-                        },
-                        "es": {
-                            "title": "Estudio",
-                            "description": "Embarcando en un viaje continuo de aprendizaje.",
-                            "level": null
-                        },
-                        "fr": {
-                            "title": "Études",
-                            "description": "Entamer un voyage continu d'apprentissage.",
-                            "level": null
-                        },
-                        "zh": {
-                            "title": "学习",
-                            "description": "踏上持续的学习和自我提升之旅。",
-                            "level": null
-                        }
-                    }
-                },
-                {
-                    "id": 5,
-                    "dateStart": null,
-                    "img": null,
                     "fallbackFaIcon": "fa-solid fa-dumbbell",
                     "fallbackFaIconColor": "#8EE3C5",
-                    "percentage": 17,
+                    "percentage": 20,
                     "locales": {
                         "en": {
                             "title": "Exercising",
@@ -177,12 +147,12 @@
                     }
                 },
                 {
-                    "id": 6,
+                    "id": 5,
                     "dateStart": null,
                     "img": null,
                     "fallbackFaIcon": "fa-solid fa-utensils",
                     "fallbackFaIconColor": "#EEB79A",
-                    "percentage": 19,
+                    "percentage": 15,
                     "locales": {
                         "en": {
                             "title": "Cooking",
@@ -268,36 +238,6 @@
                     "id": 2,
                     "dateStart": null,
                     "img": null,
-                    "fallbackFaIcon": "fa-solid fa-keyboard",
-                    "fallbackFaIconColor": null,
-                    "percentage": null,
-                    "locales": {
-                        "en": {
-                            "title": "Programming",
-                            "description": "Exploring code, algorithms, and building software solutions for real-world challenges.",
-                            "level": null
-                        },
-                        "es": {
-                            "title": "Programación",
-                            "description": "Explorar código, algoritmos y desarrollar soluciones de software para desafíos del mundo real.",
-                            "level": null
-                        },
-                        "fr": {
-                            "title": "Programmation",
-                            "description": "Exploration du code, des algorithmes et création de solutions logicielles pour des défis réels.",
-                            "level": null
-                        },
-                        "zh": {
-                            "title": "编程",
-                            "description": "探索代码、算法，为现实世界的挑战构建软件解决方案。",
-                            "level": null
-                        }
-                    }
-                },
-                {
-                    "id": 3,
-                    "dateStart": null,
-                    "img": null,
                     "fallbackFaIcon": "fa-solid fa-music",
                     "fallbackFaIconColor": null,
                     "percentage": null,
@@ -325,7 +265,7 @@
                     }
                 },
                 {
-                    "id": 4,
+                    "id": 3,
                     "dateStart": null,
                     "img": null,
                     "fallbackFaIcon": "fa-solid fa-users",
@@ -355,37 +295,7 @@
                     }
                 },
                 {
-                    "id": 5,
-                    "dateStart": null,
-                    "img": null,
-                    "fallbackFaIcon": "fa-solid fa-desktop",
-                    "fallbackFaIconColor": null,
-                    "percentage": null,
-                    "locales": {
-                        "en": {
-                            "title": "Front-End Development",
-                            "description": "Crafting interactive web interfaces using modern technologies for seamless user experiences.",
-                            "level": null
-                        },
-                        "es": {
-                            "title": "Desarrollo Front-End",
-                            "description": "Elaborar interfaces web interactivas utilizando tecnologías modernas para experiencias de usuario fluidas.",
-                            "level": null
-                        },
-                        "fr": {
-                            "title": "Développement Frontal",
-                            "description": "Conception d'interfaces web interactives utilisant des technologies modernes pour des expériences utilisateur fluides.",
-                            "level": null
-                        },
-                        "zh": {
-                            "title": "前端开发",
-                            "description": "使用现代技术打造交互式网页界面，实现无缝的用户体验。",
-                            "level": null
-                        }
-                    }
-                },
-                {
-                    "id": 6,
+                    "id": 4,
                     "dateStart": null,
                     "img": null,
                     "fallbackFaIcon": "fa-solid fa-palette",
