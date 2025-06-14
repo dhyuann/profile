@@ -23,7 +23,7 @@
            @close="onClose"
            >
         <div class="wechat-dialog">
-            <img :src="utils.resolvePath(path)" style="width: 400px;height: auto">
+            <img :src="utils.resolvePath(path)" style="width: 50%;height: auto">
         </div>
     </Modal>
 </template>
@@ -32,6 +32,8 @@
 import {computed, inject, reactive, ref} from "vue"
 import Modal from "/src/vue/components/modals/base/Modal.vue"
 import {useUtils} from "/src/composables/utils.js"
+import jsPDF from 'jspdf';
+
 
 
 const props = defineProps({
@@ -42,6 +44,7 @@ const props = defineProps({
 })
 const utils = useUtils()
 let path = 'images/flags/wechat.jpg'
+
 /** @type {Function} */
 const localizeFromStrings = inject("localizeFromStrings")
 
@@ -212,7 +215,5 @@ a.social-link:hover {
 }
 .wechat-dialog{
     text-align: center;
-    padding: 100px 50px;
-    box-sizing:border-box
 }
 </style>

@@ -7,16 +7,22 @@
              class="nav-sidebar-footer-credits">
             <span v-html="credits"/>
         </div>
+        <a :href="utils.resolvePath(path1)" download style="margin-top: 5px;color: red">PDF</a>
+
     </div>
 </template>
 
 <script setup>
 import LanguagePicker from "/src/vue/components/widgets/LanguagePicker.vue"
+import {useUtils} from "/src/composables/utils.js"
 
 const props = defineProps({
     credits: String,
     shrink: Boolean
 })
+const utils = useUtils()
+let path1 = 'resume.pdf'
+
 </script>
 
 <style lang="scss" scoped>
