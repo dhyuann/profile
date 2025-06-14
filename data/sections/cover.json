@@ -37,6 +37,17 @@
                             "description": "工作中追求「零 bug」的严谨，生活中允许「不完美」的松弛。"
                         }
                     }
+                },
+                {
+                    "id": 2,
+                    "locales": {
+                        "en": {
+                            "description": "5 years of frontend development experience with a focus on user interaction implementation for web applications. Contributed to projects across healthcare, energy, and other industries, taking charge of designing interactive logic and optimizing performance for frontend interfaces. Continuously learning framework features and UX design principles through hands-on practice, aiming to further enhance technical capabilities and contribute to refining product interaction experiences in new projects."
+                        },
+                        "zh": {
+                            "description": "5 年前端开发经验，专注于 Web 应用的用户交互实现。参与过医疗、电力等行业的项目开发，负责过前端页面的交互逻辑设计与性能优化，在实践中不断学习框架特性和用户体验设计原则，希望能在新的项目中继续提升技术能力，为产品交互体验的优化提供支持。"
+                        }
+                    }
                 }
             ]
         }

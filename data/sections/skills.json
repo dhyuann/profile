@@ -233,8 +233,8 @@
                     "percentage": 90,
                     "locales": {
                         "en": {
-                            "title": "HTML 5",
-                            "description": "Experienced with HTML5 elements and features."
+                            "title": "HTML 5/JS/CSS 3",
+                            "description": "Proficient in HTML5, JavaScript, and CSS3"
                         },
                         "es": {
                             "title": "HTML 5",
@@ -245,71 +245,13 @@
                             "description": "Expérimenté avec les éléments et fonctionnalités HTML5."
                         },
                         "zh": {
-                            "title": "HTML 5",
-                            "description": "精通HTML5元素和功能。"
+                            "title": "HTML 5/JS/CSS",
+                            "description": "熟练掌握HTML5、Javascript、CSS3技术。"
                         }
                     }
                 },
                 {
                     "id": 2,
-                    "dateStart": {
-                        "year": 2019,
-                        "month": 7
-                    },
-                    "img": null,
-                    "fallbackFaIcon": "fa-brands fa-css3-alt",
-                    "fallbackFaIconColor": null,
-                    "percentage": 90,
-                    "locales": {
-                        "en": {
-                            "title": "CSS 3",
-                            "description": "Skilled in advanced CSS3 techniques like flexbox and animations."
-                        },
-                        "es": {
-                            "title": "CSS 3",
-                            "description": "Experto en técnicas avanzadas de CSS3 como flexbox y animaciones."
-                        },
-                        "fr": {
-                            "title": "CSS 3",
-                            "description": "Compétent dans les techniques avancées CSS3 comme flexbox et animations."
-                        },
-                        "zh": {
-                            "title": "CSS 3",
-                            "description": "擅长使用CSS3高级技术，如flexbox和动画。"
-                        }
-                    }
-                },
-                {
-                    "id": 3,
-                    "dateStart": {
-                        "year": 2019,
-                        "month": 7
-                    },
-                    "img": null,
-                    "fallbackFaIcon": "fa-brands fa-js-square",
-                    "fallbackFaIconColor": null,
-                    "percentage": 85,
-                    "locales": {
-                        "en": {
-                            "title": "Javascript",
-                            "description": "Skilled in JavaScript for dynamic, interactive web applications."
-                        },
-                        "es": {
-                            "title": "Javascript",
-                            "description": "Experto en JavaScript para aplicaciones web dinámicas e interactivas."
-                        },
-                        "fr": {
-                            "title": "Javascript",
-                            "description": "Compétent en JavaScript pour des applications web dynamiques et interactives."
-                        },
-                        "zh": {
-                            "title": "Javascript",
-                            "description": "擅长JavaScript用于动态和交互式的网页应用。"
-                        }
-                    }
-                },
-                {
-                    "id": 4,
                     "dateStart": {
                         "year": 2020,
                         "month": 6
@@ -337,9 +279,8 @@
                         }
                     }
                 },
-                
                 {
-                    "id": 6,
+                    "id": 3,
                     "dateStart": {
                         "year": 2019,
                         "month": 7
@@ -364,6 +305,35 @@
                         "zh": {
                             "title": "Jquery",
                             "description": "进行DOM 操作、事件处理、动画效果与AJAX交互。"
+                        }
+                    }
+                },
+                {
+                    "id": 4,
+                    "dateStart": {
+                        "year": 2025,
+                        "month": 2
+                    },
+                    "img": null,
+                    "fallbackFaIcon": "fa-brands fa-react",
+                    "fallbackFaIconColor": null,
+                    "percentage": 60,
+                    "locales": {
+                        "en": {
+                            "title": "REACT",
+                            "description": "Build interactive user interfaces with React"
+                        },
+                        "es": {
+                            "title": "Jquery",
+                            "description": ""
+                        },
+                        "fr": {
+                            "title": "Jquery",
+                            "description": ""
+                        },
+                        "zh": {
+                            "title": "REACT",
+                            "description": "使用React构建交互式用户界面。"
                         }
                     }
                 }
